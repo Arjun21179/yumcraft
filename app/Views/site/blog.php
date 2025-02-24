@@ -11,9 +11,9 @@
 
         <!-- <h3>Browsing category</h3> -->
 
-        <h1>Blogs</h1>
+        <h1>Blogs Page</h1>
       </div>
-    </div>
+    </div>   
   </div>
 </section>
 
