@@ -1,0 +1,299 @@
+CRITICAL - 2024-07-19 04:59:01 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:06:22 --> Undefined variable $logo_favicon
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/header.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/site/layout.php(3): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/header.php')
+ 3 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Site_Controller.php(261): view()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->details_page()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:06:24 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/layout.php(3): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(223): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:06:29 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/layout.php(3): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(223): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:06:32 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/layout.php(3): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(223): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:06:39 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/layout.php(3): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(223): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:08:26 --> Undefined variable $logo_favicon
+in APPPATH/Views/site/header.php on line 22.
+ 1 APPPATH/Views/site/header.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/site/layout.php(3): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/header.php')
+ 3 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Site_Controller.php(261): view()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->details_page()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:10:26 --> Object of class stdClass could not be converted to string
+in APPPATH/Views/site/header.php on line 25.
+ 1 APPPATH/Views/site/layout.php(3): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(223): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:25 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:26 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:26 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:49 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:50 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:52 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:11:52 --> Too few arguments to function view(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2983 and at least 1 expected
+in SYSTEMPATH/Common.php on line 1178.
+ 1 APPPATH/Controllers/Admin_Controller.php(2983): view()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:31:32 --> Undefined variable $data
+in APPPATH/Views/site/home_page.php on line 11.
+ 1 APPPATH/Views/site/home_page.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/home_page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/site/layout.php(7): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Site_Controller.php(224): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 05:55:35 --> Undefined variable $base_url
+in APPPATH/Views/site/home_page.php on line 15.
+ 1 APPPATH/Views/site/home_page.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/home_page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/site/layout.php(7): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Site_Controller.php(224): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 05:58:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-19 05:58:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 05:59:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-19 05:59:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 05:59:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-19 05:59:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 05:59:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-19 05:59:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by desc banner_id' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 06:00:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-19 06:00:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Banner_Model.php(127): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(207): App\Models\Banner_Model->get_banner_image_site()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-19 06:12:59 --> mysqli_sql_exception: Unknown column 'c_id' in 'field list' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Category_Model.php(150): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(209): App\Models\Category_Model->get_category_data_site()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-19 06:12:59 --> Unknown column 'c_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Category_Model.php(150): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(209): App\Models\Category_Model->get_category_data_site()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-19 10:17:45 --> Undefined variable $banner_site_img
+in APPPATH/Views/site/header.php on line 20.
+ 1 APPPATH/Views/site/header.php(20): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Views/site/layout.php(3): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/header.php')
+ 3 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 4 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Site_Controller.php(225): view()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

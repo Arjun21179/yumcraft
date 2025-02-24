@@ -1,0 +1,69 @@
+ERROR - 2024-07-03 13:40:52 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-03 13:40:52 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipe_category_tag`
+WHERE `recipe_id` = :recipe_id:', [...], false)
+ 2 APPPATH\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-03 13:41:29 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-03 13:41:29 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipe_category_tag`
+WHERE `recipe_id` = :recipe_id:', [...], false)
+ 2 APPPATH\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-03 13:42:44 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-03 13:42:44 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipe_category_tag`
+WHERE `recipe_id` = :recipe_id:', [...], false)
+ 2 APPPATH\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(297): App\Models\Recipe_Category_tag_Model->recipe_id_delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

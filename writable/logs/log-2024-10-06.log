@@ -1,0 +1,24 @@
+CRITICAL - 2024-10-06 02:36:16 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 925.
+ 1 APPPATH/Controllers/Site_Controller.php(925): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(459): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-06 15:41:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-06 23:40:47 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 925.
+ 1 APPPATH/Controllers/Site_Controller.php(925): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(459): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

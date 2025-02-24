@@ -1,0 +1,86 @@
+CRITICAL - 2024-06-28 05:55:35 --> Undefined variable $recipes_val
+in APPPATH\Views\admin\category.php on line 245.
+ 1 APPPATH\Views\admin\category.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recipes_val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php', 245)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(585): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 05:56:03 --> Undefined variable $recipes_val
+in APPPATH\Views\admin\category.php on line 271.
+ 1 APPPATH\Views\admin\category.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recipes_val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php', 271)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(585): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:42:04 --> Attempt to read property "manages_pages_logo" on null
+in APPPATH\Controllers\Admin_Controller.php on line 1809.
+ 1 APPPATH\Controllers\Admin_Controller.php(1809): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_logo" on null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1809)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:44:24 --> Attempt to read property "manages_pages_logo" on null
+in APPPATH\Controllers\Admin_Controller.php on line 1810.
+ 1 APPPATH\Controllers\Admin_Controller.php(1810): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_logo" on null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1810)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:46:42 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Admin_Controller.php on line 1793.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:47:06 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Admin_Controller.php on line 1786.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:47:46 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Admin_Controller.php on line 1786.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:51:08 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Admin_Controller.php on line 1793.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:51:43 --> Array callback has to contain indices 0 and 1
+in APPPATH\Controllers\Admin_Controller.php on line 1793.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:55:45 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1790.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:56:18 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1790.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

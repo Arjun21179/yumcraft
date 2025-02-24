@@ -1,0 +1,116 @@
+CRITICAL - 2024-10-15 11:05:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 06:43:32 --> Undefined array key "gallery_image_alt"
+in APPPATH/Controllers/Admin_Controller.php on line 5757.
+ 1 APPPATH/Controllers/Admin_Controller.php(5757): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_img_insert_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 06:43:32 --> Undefined array key "gallery_image_alt"
+in APPPATH/Controllers/Admin_Controller.php on line 5757.
+ 1 APPPATH/Controllers/Admin_Controller.php(5757): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_img_insert_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 06:43:59 --> Undefined array key "gallery_image_alt"
+in APPPATH/Controllers/Admin_Controller.php on line 5757.
+ 1 APPPATH/Controllers/Admin_Controller.php(5757): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_img_insert_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 12:14:04 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 06:48:18 --> Undefined array key "gallery_image_alt"
+in APPPATH/Controllers/Admin_Controller.php on line 5757.
+ 1 APPPATH/Controllers/Admin_Controller.php(5757): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_img_insert_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 12:52:39 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 12:52:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 12:52:55 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 13:06:20 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 13:07:09 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 16:41:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 17:14:44 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 941.
+ 1 APPPATH/Controllers/Site_Controller.php(941): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(463): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 19:38:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-15 22:43:33 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

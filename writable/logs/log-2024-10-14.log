@@ -1,0 +1,87 @@
+CRITICAL - 2024-10-14 01:34:08 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 941.
+ 1 APPPATH/Controllers/Site_Controller.php(941): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(463): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 09:53:56 --> Undefined array key "img_alt"
+in APPPATH/Controllers/Admin_Controller.php on line 5994.
+ 1 APPPATH/Controllers/Admin_Controller.php(5994): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_recipe_edit_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 10:19:41 --> mysqli_sql_exception: Unknown column 'blog_id' in 'field list' in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(6057): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->get_blog_alt_img_gallery()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-14 10:19:41 --> Unknown column 'blog_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Admin_Controller.php(6057): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->get_blog_alt_img_gallery()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-14 10:19:46 --> mysqli_sql_exception: Unknown column 'blog_id' in 'field list' in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(6057): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->get_blog_alt_img_gallery()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-14 10:19:46 --> Unknown column 'blog_id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Admin_Controller.php(6057): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->get_blog_alt_img_gallery()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 16:24:54 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 17:28:59 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 941.
+ 1 APPPATH/Controllers/Site_Controller.php(941): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(463): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 18:41:23 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-14 18:48:37 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,157 @@
+CRITICAL - 2024-07-05 10:53:06 --> fgetcsv(): Argument #1 ($stream) must be of type resource, array given
+in APPPATH\Controllers\Admin_Controller.php on line 2033.
+ 1 APPPATH\Controllers\Admin_Controller.php(2033): fgetcsv([...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 06:32:26 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(304): App\Models\Recipe_Category_tag_Model->recipe_id_delete(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 06:32:26 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipe_category_tag`
+WHERE `recipe_id` = :recipe_id:', [...], false)
+ 2 APPPATH\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(304): App\Models\Recipe_Category_tag_Model->recipe_id_delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 06:41:20 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(176): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(302): App\Models\Recipes_Model->recipes_attime_deleteall_data(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 06:41:20 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(176): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(302): App\Models\Recipes_Model->recipes_attime_deleteall_data([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 06:47:47 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(176): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(302): App\Models\Recipes_Model->recipes_attime_deleteall_data(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 06:47:47 --> Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(176): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(302): App\Models\Recipes_Model->recipes_attime_deleteall_data([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-05 07:25:04 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(304): App\Models\Recipe_Category_tag_Model->recipe_id_delete(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-05 07:25:04 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipe_category_tag`
+WHERE `recipe_id` = :recipe_id:', [...], false)
+ 2 APPPATH\Models\Recipe_Category_tag_Model.php(93): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(304): App\Models\Recipe_Category_tag_Model->recipe_id_delete([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes_attime_deleteall()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:09:16 --> strtolower(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Admin_Controller.php on line 191.
+ 1 APPPATH\Controllers\Admin_Controller.php(191): strtolower([...])
+ 2 APPPATH\Controllers\Admin_Controller.php(2052): App\Controllers\Admin_Controller->create_url([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:14:01 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 2049.
+ 1 APPPATH\Controllers\Admin_Controller.php(2049): implode(' | ', 'Vegan taco soup recipe | How to make taco soup at home')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:18:58 --> implode(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 2049.
+ 1 APPPATH\Controllers\Admin_Controller.php(2049): implode('Vegan taco soup recipe | How to make taco soup at home')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:22:04 --> explode(): Argument #2 ($string) must be of type string, array given
+in APPPATH\Controllers\Admin_Controller.php on line 2049.
+ 1 APPPATH\Controllers\Admin_Controller.php(2049): explode('|', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:23:51 --> strtolower(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Admin_Controller.php on line 191.
+ 1 APPPATH\Controllers\Admin_Controller.php(191): strtolower([...])
+ 2 APPPATH\Controllers\Admin_Controller.php(2053): App\Controllers\Admin_Controller->create_url([...])
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:27:54 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 2049.
+ 1 APPPATH\Controllers\Admin_Controller.php(2049): implode('|', 'Vegan taco soup recipe | How to make taco soup at home')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:42:36 --> implode(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 2045.
+ 1 APPPATH\Controllers\Admin_Controller.php(2045): implode('Vegan taco soup recipe | How to make taco soup at home')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-05 14:43:42 --> implode(): Argument #1 ($array) must be of type array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 2047.
+ 1 APPPATH\Controllers\Admin_Controller.php(2047): implode('Vegan taco soup recipe | How to make taco soup at home')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

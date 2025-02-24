@@ -1,0 +1,38 @@
+CRITICAL - 2024-07-16 17:33:41 --> Undefined array key "re_title"
+in APPPATH/Controllers/Admin_Controller.php on line 2476.
+ 1 APPPATH/Controllers/Admin_Controller.php(2476): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 17:50:49 --> Undefined array key "re_title"
+in APPPATH/Controllers/Admin_Controller.php on line 2475.
+ 1 APPPATH/Controllers/Admin_Controller.php(2475): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 12:24:52 --> 'continue' not in the 'loop' or 'switch' context
+in APPPATH/Controllers/Admin_Controller.php on line 2477.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-16 18:00:56 --> Undefined array key "re_title"
+in APPPATH/Controllers/Admin_Controller.php on line 2457.
+ 1 APPPATH/Controllers/Admin_Controller.php(2457): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 18:05:21 --> Undefined array key "re_title"
+in APPPATH/Controllers/Admin_Controller.php on line 2459.
+ 1 APPPATH/Controllers/Admin_Controller.php(2459): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-16 18:10:06 --> Undefined array key "re_title"
+in APPPATH/Controllers/Admin_Controller.php on line 2463.
+ 1 APPPATH/Controllers/Admin_Controller.php(2463): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,276 @@
+CRITICAL - 2024-09-04 10:50:02 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Query.php(327): implode()
+ 3 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1582): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+ 7 APPPATH/Models/Recipes_Model.php(353): CodeIgniter\Database\BaseBuilder->getCompiledSelect()
+ 8 APPPATH/Controllers/Site_Controller.php(465): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 10:50:04 --> Array to string conversion
+in SYSTEMPATH/Database/Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Database/Query.php(327): implode()
+ 3 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+ 4 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1598): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH/Database/BaseBuilder.php(1582): CodeIgniter\Database\BaseBuilder->compileFinalQuery()
+ 7 APPPATH/Models/Recipes_Model.php(353): CodeIgniter\Database\BaseBuilder->getCompiledSelect()
+ 8 APPPATH/Controllers/Site_Controller.php(465): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 11:35:40 --> Undefined property: stdClass::$total_count
+in APPPATH/Models/Recipes_Model.php on line 414.
+ 1 APPPATH/Models/Recipes_Model.php(414): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(465): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-04 11:37:52 --> mysqli_sql_exception: Unknown column 'recipe_category_tag.recipe_category_tag_id' in 'order clause' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Recipes_Model.php(423): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(465): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-04 11:37:52 --> Unknown column 'recipe_category_tag.recipe_category_tag_id' in 'order clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Recipes_Model.php(423): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(465): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 11:54:46 --> Invalid file: "recipes_view.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Site_Controller.php(439): view()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:10:01 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Models/Recipes_Model.php on line 373.
+ 1 APPPATH/Models/Recipes_Model.php(373): count()
+ 2 APPPATH/Controllers/Site_Controller.php(431): App\Models\Recipes_Model->getRecipesByCategory()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-04 12:38:17 --> mysqli_sql_exception: Not unique table/alias: 'recipes' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-04 12:38:17 --> Not unique table/alias: 'recipes'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-04 12:38:51 --> mysqli_sql_exception: Not unique table/alias: 'recipes' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-04 12:38:51 --> Not unique table/alias: 'recipes'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-04 12:38:52 --> mysqli_sql_exception: Not unique table/alias: 'recipes' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-04 12:38:52 --> Not unique table/alias: 'recipes'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Recipes_Model.php(364): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(429): App\Models\Recipes_Model->getRecipesByCategory()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:55:38 --> Call to undefined method App\Models\Recipes_Model::getRecipesByCategory
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(429): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->index()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:34 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:35 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:36 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:36 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:36 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:36 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:56:38 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 331.
+ 1 APPPATH/Models/Recipes_Model.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(484): App\Models\Recipes_Model->get_all_allergenrecipe_for_allergenrecipe_section()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:57:45 --> Undefined array key "allallergen_recipe_desending"
+in APPPATH/Controllers/Site_Controller.php on line 486.
+ 1 APPPATH/Controllers/Site_Controller.php(486): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 12:57:47 --> Undefined array key "allallergen_recipe_desending"
+in APPPATH/Controllers/Site_Controller.php on line 486.
+ 1 APPPATH/Controllers/Site_Controller.php(486): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 14:03:48 --> foreach() argument must be of type array|object, string given
+in APPPATH/Models/Recipes_Model.php on line 723.
+ 1 APPPATH/Models/Recipes_Model.php(723): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(459): App\Models\Recipes_Model->get_popular_recipe_category_and_allergencategory_page()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-04 15:48:20 --> mysqli_sql_exception: Table 'u582998483_gruballergydb.flag' doesn't exist in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Category_Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(467): App\Models\Category_Model->get_all_categories_allergen()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-04 15:48:20 --> Table 'u582998483_gruballergydb.flag' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Category_Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(467): App\Models\Category_Model->get_all_categories_allergen()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 15:57:31 --> Undefined variable $category_alldata
+in APPPATH/Views/site/allergen_page.php on line 63.
+ 1 APPPATH/Views/site/allergen_page.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/allergen_page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/site/layout.php(7): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Site_Controller.php(499): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_allergen_recipe_view()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-04 17:42:16 --> Unclosed '{' on line 208
+in APPPATH/Views/site/category_page.php on line 407.
+ 1 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/site/layout.php(7): view()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Site_Controller.php(1419): view()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,137 @@
+ERROR - 2024-05-11 11:36:11 --> mysqli_sql_exception: Unknown column 're_category' in 'where clause' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select re_id fr...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select re_id fr...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select re_id fr...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id fr...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-11 11:36:11 --> Unknown column 're_category' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id from recipes where active=1 and re_category="13"')
+ 2 APPPATH\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-11 11:37:55 --> mysqli_sql_exception: Unknown column 're_category' in 'where clause' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select re_id fr...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select re_id fr...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select re_id fr...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id fr...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-11 11:37:55 --> Unknown column 're_category' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id from recipes where active=1 and re_category="13"')
+ 2 APPPATH\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 11:40:20 --> Attempt to read property "c_id" on null
+in APPPATH\Controllers\Admin_Controller.php on line 503.
+ 1 APPPATH\Controllers\Admin_Controller.php(503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "c_id" on null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 503)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_view('tag1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-11 11:40:33 --> mysqli_sql_exception: Unknown column 're_category' in 'where clause' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select re_id fr...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select re_id fr...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select re_id fr...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id fr...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-11 11:40:33 --> Unknown column 're_category' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Category_Model.php(77): CodeIgniter\Database\BaseConnection->query('select re_id from recipes where active=1 and re_category="13"')
+ 2 APPPATH\Controllers\Admin_Controller.php(569): App\Models\Category_Model->category_deletedata('13')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-11 12:24:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from t...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Tag_Model.php(30): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(594): App\Models\Tag_Model->alltag_desending()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-11 12:24:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'desc' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Tag_Model.php(30): CodeIgniter\Database\BaseConnection->query('select * from tag where active=1 order by desc')
+ 2 APPPATH\Controllers\Admin_Controller.php(594): App\Models\Tag_Model->alltag_desending()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 12:42:56 --> Undefined array key "c_name"
+in APPPATH\Controllers\Admin_Controller.php on line 459.
+ 1 APPPATH\Controllers\Admin_Controller.php(459): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 459)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_category()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 12:46:12 --> Undefined array key "tag_id"
+in APPPATH\Controllers\Admin_Controller.php on line 657.
+ 1 APPPATH\Controllers\Admin_Controller.php(657): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tag_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 657)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tag_editlogic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 17:03:11 --> Undefined array key "video_id"
+in APPPATH\Controllers\Admin_Controller.php on line 790.
+ 1 APPPATH\Controllers\Admin_Controller.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->video_delete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 17:03:18 --> Undefined array key "video_id"
+in APPPATH\Controllers\Admin_Controller.php on line 790.
+ 1 APPPATH\Controllers\Admin_Controller.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->video_delete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 17:03:22 --> Undefined array key "video_id"
+in APPPATH\Controllers\Admin_Controller.php on line 790.
+ 1 APPPATH\Controllers\Admin_Controller.php(790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 790)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->video_delete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 18:16:47 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 60.
+ 1 APPPATH\Config\Routes.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Config\\Routes.php', 60)
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-11 18:52:29 --> Undefined array key "faq_id"
+in APPPATH\Controllers\Admin_Controller.php on line 769.
+ 1 APPPATH\Controllers\Admin_Controller.php(769): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "faq_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 769)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->faq_editlogic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

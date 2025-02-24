@@ -1,0 +1,322 @@
+CRITICAL - 2024-05-17 05:50:01 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:51:58 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:53:49 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:53:54 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:55:42 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 05:59:20 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:00:23 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:02:30 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:04:04 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:09:31 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:12:13 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:12:28 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:13:35 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:16:32 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:17:44 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:22:30 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:23:26 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:23:57 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:25:15 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:25:41 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:25:47 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:26:31 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:27:17 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:32:30 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:33:35 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:36:43 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:37:00 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:39:31 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:40:27 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:41:03 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:41:22 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:41:46 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:42:57 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:46:45 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:48:51 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:50:02 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:51:01 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:55:09 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 06:59:21 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:02:46 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:02:55 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:19:54 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:21:24 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 07:22:47 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 372.
+ 1 APPPATH\Controllers\Admin_Controller.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 372)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:16:50 --> Attempt to read property "banner_mobile_img" on null
+in APPPATH\Controllers\Admin_Controller.php on line 1503.
+ 1 APPPATH\Controllers\Admin_Controller.php(1503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "banner_mobile_img" on null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1503)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_banner_img_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-17 13:19:24 --> Attempt to read property "banner_mobile_img" on null
+in APPPATH\Controllers\Admin_Controller.php on line 1503.
+ 1 APPPATH\Controllers\Admin_Controller.php(1503): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "banner_mobile_img" on null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1503)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_banner_img_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

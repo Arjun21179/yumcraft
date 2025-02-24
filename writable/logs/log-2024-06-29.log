@@ -1,0 +1,335 @@
+CRITICAL - 2024-06-29 07:37:36 --> Undefined array key "logo_img"
+in APPPATH\Controllers\Admin_Controller.php on line 1783.
+ 1 APPPATH\Controllers\Admin_Controller.php(1783): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo_img"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1783)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:33:12 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1796.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:34:10 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1795.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:35:33 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1795.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:37:53 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1805.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:39:39 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1795.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:41:06 --> Undefined array key "logo_img"
+in APPPATH\Controllers\Admin_Controller.php on line 1789.
+ 1 APPPATH\Controllers\Admin_Controller.php(1789): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo_img"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1789)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:41:37 --> Undefined array key "logo_img"
+in APPPATH\Controllers\Admin_Controller.php on line 1789.
+ 1 APPPATH\Controllers\Admin_Controller.php(1789): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo_img"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1789)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:50:13 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1795.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:50:58 --> Call to a member function isValid() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1795.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:54:41 --> Undefined array key "formData_info"
+in APPPATH\Controllers\Admin_Controller.php on line 1782.
+ 1 APPPATH\Controllers\Admin_Controller.php(1782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formData_info"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1782)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:55:32 --> Undefined array key "formData_info"
+in APPPATH\Controllers\Admin_Controller.php on line 1782.
+ 1 APPPATH\Controllers\Admin_Controller.php(1782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formData_info"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1782)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:56:25 --> Undefined array key "formData_info"
+in APPPATH\Controllers\Admin_Controller.php on line 1782.
+ 1 APPPATH\Controllers\Admin_Controller.php(1782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formData_info"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1782)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 08:58:10 --> Undefined array key "formData_info"
+in APPPATH\Controllers\Admin_Controller.php on line 1782.
+ 1 APPPATH\Controllers\Admin_Controller.php(1782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formData_info"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1782)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:17:54 --> Undefined array key "logo_img"
+in APPPATH\Controllers\Admin_Controller.php on line 1790.
+ 1 APPPATH\Controllers\Admin_Controller.php(1790): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo_img"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1790)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:21:20 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Admin_Controller.php on line 1796.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:22:15 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Admin_Controller.php on line 1796.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:22:42 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Admin_Controller.php on line 1796.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:42:34 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Admin_Controller.php on line 1799.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:42:54 --> Call to a member function isValid() on array
+in APPPATH\Controllers\Admin_Controller.php on line 1799.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-29 09:52:02 --> Undefined array key "logo"
+in APPPATH\Controllers\Admin_Controller.php on line 1859.
+ 1 APPPATH\Controllers\Admin_Controller.php(1859): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "logo"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1859)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:40:50 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:40:50 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:41:24 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:41:24 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:43:20 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:43:20 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:43:45 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:43:45 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:48:53 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:48:53 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1 and manages_pages_id="1" ')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:49:21 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:49:22 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1 and manages_pages_id="1" ')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:52:44 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:52:44 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1 and manages_pages_id=\'.1.\'')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:54:08 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:54:08 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1 and manages_pages_id=\'.1.\'')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:56:31 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:56:31 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1 and manages_pages_id=\'.1.\'')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-29 10:58:54 --> mysqli_sql_exception: Unknown column 'manages_pages_logo' in 'field list' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert(Array, '1')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-29 10:58:54 --> Unknown column 'manages_pages_logo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Manage_Pages_Model.php(40): CodeIgniter\Database\BaseConnection->query('select manages_pages_logo,manages_pages_favicon from admin where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(1884): App\Models\Manage_Pages_Model->logo_info_insert([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logo_info_logic1()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

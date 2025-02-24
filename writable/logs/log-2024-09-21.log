@@ -1,0 +1,139 @@
+CRITICAL - 2024-09-21 08:30:46 --> Unclosed '{' on line 9
+in APPPATH/Models/Admin_Model.php on line 122.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Site_Controller.php(85): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Site_Controller->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 08:43:41 --> Array to string conversion
+in APPPATH/Controllers/Site_Controller.php on line 315.
+ 1 APPPATH/Controllers/Site_Controller.php(315): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 08:45:46 --> Array to string conversion
+in APPPATH/Controllers/Site_Controller.php on line 315.
+ 1 APPPATH/Controllers/Site_Controller.php(315): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 12:39:46 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 08:13:53 --> Attempt to read property "re_images" on null
+in APPPATH/Controllers/Admin_Controller.php on line 655.
+ 1 APPPATH/Controllers/Admin_Controller.php(655): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 14:57:36 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 10:51:01 --> Attempt to read property "re_images" on null
+in APPPATH/Controllers/Admin_Controller.php on line 655.
+ 1 APPPATH/Controllers/Admin_Controller.php(655): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 10:51:32 --> Attempt to read property "re_images" on null
+in APPPATH/Controllers/Admin_Controller.php on line 655.
+ 1 APPPATH/Controllers/Admin_Controller.php(655): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 11:32:17 --> Attempt to read property "re_images" on null
+in APPPATH/Controllers/Admin_Controller.php on line 655.
+ 1 APPPATH/Controllers/Admin_Controller.php(655): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 11:33:41 --> Attempt to read property "re_images" on null
+in APPPATH/Controllers/Admin_Controller.php on line 655.
+ 1 APPPATH/Controllers/Admin_Controller.php(655): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:04:42 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:10:04 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:14:39 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:14:58 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:26:45 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:41:24 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 18:08:37 --> Attempt to read property "blog_id" on null
+in APPPATH/Models/Blog_Model.php on line 294.
+ 1 APPPATH/Models/Blog_Model.php(294): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1350): App\Models\Blog_Model->single_details_blog()
+ 3 APPPATH/Controllers/Site_Controller.php(1333): App\Controllers\Site_Controller->blog_details()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

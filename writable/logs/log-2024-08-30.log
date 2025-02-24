@@ -1,0 +1,279 @@
+CRITICAL - 2024-08-30 11:37:37 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:54 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:55 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:55 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:56 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:56 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:57 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:37:58 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:38:00 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 11:38:00 --> Attempt to assign property "Array" on int
+in APPPATH/Views/site/footer.php on line 167.
+ 1 APPPATH/Views/site/layout.php(10): include()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Site_Controller.php(304): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:01:29 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:01:33 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:02:14 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1036.
+ 1 APPPATH/Controllers/Site_Controller.php(1036): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:02:16 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1036.
+ 1 APPPATH/Controllers/Site_Controller.php(1036): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:02:23 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1036.
+ 1 APPPATH/Controllers/Site_Controller.php(1036): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:04:45 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:53:20 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:54:03 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:54:22 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:54:34 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:55:00 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:56:57 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:57:38 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:57:44 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:58:02 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 13:58:24 --> Undefined array key "blog_id"
+in APPPATH/Controllers/Site_Controller.php on line 626.
+ 1 APPPATH/Controllers/Site_Controller.php(626): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:03:28 --> Undefined variable $recipe_id
+in APPPATH/Controllers/Site_Controller.php on line 630.
+ 1 APPPATH/Controllers/Site_Controller.php(630): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->subscriber_insert_for_recipe_blog()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:04:53 --> Undefined property: stdClass::$re_id
+in APPPATH/Views/site/blog_detailspage.php on line 192.
+ 1 APPPATH/Views/site/blog_detailspage.php(192): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/blog_detailspage.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/site/layout.php(7): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Site_Controller.php(1112): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:13:20 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1038.
+ 1 APPPATH/Controllers/Site_Controller.php(1038): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:13:56 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1027.
+ 1 APPPATH/Controllers/Site_Controller.php(1027): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:15:22 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1027.
+ 1 APPPATH/Controllers/Site_Controller.php(1027): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:28:47 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1030.
+ 1 APPPATH/Controllers/Site_Controller.php(1030): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-30 14:31:20 --> Undefined array key "mob_no"
+in APPPATH/Controllers/Site_Controller.php on line 1033.
+ 1 APPPATH/Controllers/Site_Controller.php(1033): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->rating_lead()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,111 @@
+ERROR - 2024-08-28 11:58:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by c_id desc' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Category_Model.php(169): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(485): App\Models\Category_Model->get_category_data_site_tag()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(1075): App\Controllers\Site_Controller->category_visedisplay_recipes()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-28 11:58:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by c_id desc' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Category_Model.php(169): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(485): App\Models\Category_Model->get_category_data_site_tag()
+ 3 APPPATH/Controllers/Site_Controller.php(1075): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-28 11:59:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by c_id desc' at line 1 in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Category_Model.php(169): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(485): App\Models\Category_Model->get_category_data_site_tag()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(1075): App\Controllers\Site_Controller->category_visedisplay_recipes()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-08-28 11:59:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by c_id desc' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 APPPATH/Models/Category_Model.php(169): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(485): App\Models\Category_Model->get_category_data_site_tag()
+ 3 APPPATH/Controllers/Site_Controller.php(1075): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 14:38:44 --> Attempt to read property "category_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 226.
+ 1 APPPATH/Controllers/Site_Controller.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:44:52 --> Undefined array key "trending_category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 2628.
+ 1 APPPATH/Controllers/Admin_Controller.php(2628): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:46:13 --> Undefined array key "trending_category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 2630.
+ 1 APPPATH/Controllers/Admin_Controller.php(2630): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:46:16 --> Undefined array key "trending_category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 2630.
+ 1 APPPATH/Controllers/Admin_Controller.php(2630): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:46:46 --> Undefined array key "trending_category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 2632.
+ 1 APPPATH/Controllers/Admin_Controller.php(2632): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:47:40 --> Undefined array key "trending_category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 2631.
+ 1 APPPATH/Controllers/Admin_Controller.php(2631): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:47:56 --> Undefined variable $data
+in APPPATH/Controllers/Admin_Controller.php on line 2645.
+ 1 APPPATH/Controllers/Admin_Controller.php(2645): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 09:49:04 --> Undefined variable $data
+in APPPATH/Controllers/Admin_Controller.php on line 2645.
+ 1 APPPATH/Controllers/Admin_Controller.php(2645): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_maincategory_section()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-28 22:27:19 --> Undefined variable $set_category_onmenu
+in APPPATH/Views/landing_page/landing_page_file.php on line 424.
+ 1 APPPATH/Views/landing_page/landing_page_file.php(424): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/landing_page/landing_page_file.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Landingpage_Controller.php(84): view()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->gruballergy_landingpage()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

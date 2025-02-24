@@ -1,0 +1,15 @@
+CRITICAL - 2024-08-31 19:45:34 --> Undefined array key "banner_shortdescription"
+in APPPATH/Views/site/home_page.php on line 33.
+ 1 APPPATH/Views/site/home_page.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/home_page.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/site/layout.php(7): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/site/layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Site_Controller.php(303): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

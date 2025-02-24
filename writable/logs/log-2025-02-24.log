@@ -1,0 +1,163 @@
+CRITICAL - 2025-02-24 10:43:30 --> Invalid file: "admin/blog_page.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/blog_page.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/blog_page', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/blog_page')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(869): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_list()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:45:32 --> Undefined property: App\Controllers\Admin_Controller::$Tag_Model
+in APPPATH\Controllers\Admin_Controller.php on line 885.
+ 1 APPPATH\Controllers\Admin_Controller.php(885): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_Controller::$Tag_Model', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 885)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:46:54 --> Undefined property: App\Controllers\Admin_Controller::$Tag_Model
+in APPPATH\Controllers\Admin_Controller.php on line 887.
+ 1 APPPATH\Controllers\Admin_Controller.php(887): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_Controller::$Tag_Model', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 887)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:46:56 --> Undefined property: App\Controllers\Admin_Controller::$Tag_Model
+in APPPATH\Controllers\Admin_Controller.php on line 887.
+ 1 APPPATH\Controllers\Admin_Controller.php(887): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_Controller::$Tag_Model', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 887)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:47:13 --> Invalid file: "admin/add_blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/add_blog.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/add_blog', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/add_blog')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(893): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:47:14 --> Invalid file: "admin/add_blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/add_blog.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/add_blog', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/add_blog')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(893): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:48:07 --> Undefined property: App\Controllers\Admin_Controller::$faq_blog_Model
+in APPPATH\Controllers\Admin_Controller.php on line 1023.
+ 1 APPPATH\Controllers\Admin_Controller.php(1023): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_Controller::$faq_blog_Model', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 1023)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->ediblog_view()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 10:48:34 --> Invalid file: "admin/edit_blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/edit_blog.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/edit_blog', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/edit_blog')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(1033): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->ediblog_view()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-24 10:53:18 --> mysqli_sql_exception: Table 'yumcraft.faq_blog' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-24 10:53:18 --> Table 'yumcraft.faq_blog' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `faq_blog`
+WHERE `blog_id` = :blog_id:', [...], false)
+ 2 APPPATH\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-24 10:53:21 --> mysqli_sql_exception: Table 'yumcraft.faq_blog' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-24 10:53:21 --> Table 'yumcraft.faq_blog' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `faq_blog`
+WHERE `blog_id` = :blog_id:', [...], false)
+ 2 APPPATH\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-24 10:54:57 --> mysqli_sql_exception: Table 'yumcraft.faq_blog' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `fa...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `fa...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `fa...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `fa...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-24 10:54:57 --> Table 'yumcraft.faq_blog' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `faq_blog`
+WHERE `blog_id` = :blog_id:', [...], false)
+ 2 APPPATH\Controllers\Admin_Controller.php(1154): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_delete()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 11:05:52 --> Invalid file: "admin/comment_blog.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/comment_blog.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/comment_blog', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/comment_blog')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(3781): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->comments_blog()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-24 11:16:16 --> Undefined array key "blog_id"
+in APPPATH\Controllers\Admin_Controller.php on line 1166.
+ 1 APPPATH\Controllers\Admin_Controller.php(1166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_id"', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 1166)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->blog_attime_deleteAll()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

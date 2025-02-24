@@ -1,0 +1,1362 @@
+ERROR - 2024-05-16 05:05:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 05:05:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:15:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:15:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:15:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:15:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:16:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:16:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:16:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:16:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:23:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:23:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:30:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:30:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:30:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:30:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:30:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:30:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:34:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:34:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:35:17 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:35:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:35:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:35:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:35:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:35:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:36:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:36:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:39:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:39:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:39:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:39:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:40:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:40:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 06:40:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 06:40:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:13:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:13:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:13:59 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:13:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:16:20 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:16:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:16:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:16:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:17:29 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('127.0.0.1', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:17:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:18:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:18:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:18:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:18:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 07:18:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'arvind@@##$$20', 'test_db', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.co...', '202cb962ac59075...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 07:18:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(100): App\Models\Admin_Model->loginuser('test20@gmail.com', '202cb962ac59075b964b07152d234b70')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 09:34:29 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\Admin_Controller.php on line 1360.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 10:02:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from b...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from b...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from b...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Banner_Model.php(23): CodeIgniter\Database\BaseConnection->query('select * from b...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1328): App\Models\Banner_Model->desending_banner()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->banner_view()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 10:02:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Banner_Model.php(23): CodeIgniter\Database\BaseConnection->query('select * from banner where active=1 and order by banner_id desc')
+ 2 APPPATH\Controllers\Admin_Controller.php(1328): App\Models\Banner_Model->desending_banner()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->banner_view()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 10:03:38 --> Undefined array key "video_id"
+in APPPATH\Views\admin\banner_img.php on line 178.
+ 1 APPPATH\Views\admin\banner_img.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\banner_img.php', 178)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\banner_img.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/banner_img', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/banner_img')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(1331): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->banner_view()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 15:42:20 --> Undefined variable $imagename2
+in APPPATH\Controllers\Admin_Controller.php on line 1369.
+ 1 APPPATH\Controllers\Admin_Controller.php(1369): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename2', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1369)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->insert_banner_img_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 12:10:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from b...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from b...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from b...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Banner_Model.php(23): CodeIgniter\Database\BaseConnection->query('select * from b...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1327): App\Models\Banner_Model->desending_banner()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->banner_view()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 12:10:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by banner_id desc' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Banner_Model.php(23): CodeIgniter\Database\BaseConnection->query('select * from banner where order by banner_id desc')
+ 2 APPPATH\Controllers\Admin_Controller.php(1327): App\Models\Banner_Model->desending_banner()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->banner_view()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:11:12 --> Call to undefined method App\Models\Article_Model::deactivate_banner
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(1499): CodeIgniter\Model->__call('deactivate_banner', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->deactive_banner()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 12:59:36 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\admin\admin_header.php on line 34.
+ 1 APPPATH\Views\admin\admin_header.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 34)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:00:32 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\Common.php(1190): CodeIgniter\View\View->render('admin/admin_lay...', Array, true)
+#8 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(232): view('admin/admin_lay...', Array)
+#9 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#10 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#11 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-16 13:00:33 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_pages_favicon from manage_pages where active=1')
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:01:19 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\Common.php(1190): CodeIgniter\View\View->render('admin/admin_lay...', Array, true)
+#8 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(232): view('admin/admin_lay...', Array)
+#9 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#10 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#11 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-16 13:01:19 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_pages_favicon from manage_pages where active=1')
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:01:33 --> Unclosed '{' on line 41
+in APPPATH\Views\admin\admin_header.php on line 299.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 4 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:03:37 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select manages_...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select manages_...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select manages_...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\Common.php(1190): CodeIgniter\View\View->render('admin/admin_lay...', Array, true)
+#8 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(232): view('admin/admin_lay...', Array)
+#9 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#10 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#11 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-16 13:03:37 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Views\admin\admin_header.php(37): CodeIgniter\Database\BaseConnection->query('select manages_pages_favicon from manage_pages where active=1')
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:05:25 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\admin\admin_header.php on line 36.
+ 1 APPPATH\Views\admin\admin_header.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 36)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:28:21 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from m...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-16 13:28:21 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from manage_pages where active=1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:29:20 --> Undefined property: CodeIgniter\View\View::$db
+in APPPATH\Views\admin\admin_header.php on line 36.
+ 1 APPPATH\Views\admin\admin_header.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$db', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 36)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(232): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:35:56 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from m...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-16 13:35:56 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from manage_pages where active=1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:35:57 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from m...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-16 13:35:57 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from manage_pages where active=1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:35:57 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from m...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-16 13:35:57 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Admin_Controller.php(230): CodeIgniter\Database\BaseConnection->query('select * from manage_pages where active=1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-16 13:38:00 --> mysqli_sql_exception: Table 'gruballergy.manage_pages' doesn't exist in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from m...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from m...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from m...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(193): CodeIgniter\Database\BaseConnection->query('select * from m...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(234): App\Controllers\Admin_Controller->logo_favicon()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-16 13:38:00 --> Table 'gruballergy.manage_pages' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Controllers\Admin_Controller.php(193): CodeIgniter\Database\BaseConnection->query('select * from manage_pages where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(234): App\Controllers\Admin_Controller->logo_favicon()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:50:36 --> Attempt to read property "manages_pages_favicon" on string
+in APPPATH\Views\admin\admin_header.php on line 15.
+ 1 APPPATH\Views\admin\admin_header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_favicon" on string', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 15)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(236): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:51:11 --> Attempt to read property "manages_pages_favicon" on string
+in APPPATH\Views\admin\admin_header.php on line 15.
+ 1 APPPATH\Views\admin\admin_header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_favicon" on string', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 15)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(236): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:51:12 --> Attempt to read property "manages_pages_favicon" on string
+in APPPATH\Views\admin\admin_header.php on line 15.
+ 1 APPPATH\Views\admin\admin_header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_favicon" on string', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 15)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(236): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-16 13:51:12 --> Attempt to read property "manages_pages_favicon" on string
+in APPPATH\Views\admin\admin_header.php on line 15.
+ 1 APPPATH\Views\admin\admin_header.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "manages_pages_favicon" on string', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php', 15)
+ 2 APPPATH\Views\admin\admin_layout.php(4): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_header.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 6 APPPATH\Controllers\Admin_Controller.php(236): view('admin/admin_layout', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

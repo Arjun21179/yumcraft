@@ -1,0 +1,35 @@
+CRITICAL - 2024-09-16 09:17:21 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2309 and exactly 1 expected
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 909.
+ 1 APPPATH/Controllers/Admin_Controller.php(2309): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_img_dynamic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 09:17:30 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2309 and exactly 1 expected
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 909.
+ 1 APPPATH/Controllers/Admin_Controller.php(2309): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_img_dynamic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 09:18:46 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 2309 and exactly 1 expected
+in SYSTEMPATH/HTTP/IncomingRequest.php on line 909.
+ 1 APPPATH/Controllers/Admin_Controller.php(2309): CodeIgniter\HTTP\IncomingRequest->getFile()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_img_dynamic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 17:12:08 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH/Database/Query.php on line 333.
+ 1 SYSTEMPATH/Database/Query.php(333): strtr()
+ 2 SYSTEMPATH/Database/Query.php(308): CodeIgniter\Database\Query->matchNamedBinds()
+ 3 SYSTEMPATH/Database/Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 6 APPPATH/Models/Category_Model.php(252): CodeIgniter\Database\BaseBuilder->get()
+ 7 APPPATH/Controllers/Site_Controller.php(745): App\Models\Category_Model->get_category_url()
+ 8 APPPATH/Controllers/Site_Controller.php(387): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 9 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_recipe_view()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

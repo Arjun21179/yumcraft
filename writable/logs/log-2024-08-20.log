@@ -1,0 +1,172 @@
+CRITICAL - 2024-08-20 11:07:05 --> Undefined variable $roues
+in APPPATH/Config/Routes.php on line 522.
+ 1 APPPATH/Config/Routes.php(522): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-20 17:03:20 --> mysqli_sql_exception: Unknown column 'test20@gmail.com' in 'field list' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(1242): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-20 17:03:20 --> Unknown column 'test20@gmail.com' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(1242): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-08-20 17:04:00 --> mysqli_sql_exception: Unknown column 'test20@gmail.com' in 'field list' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(1242): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-08-20 17:04:00 --> Unknown column 'test20@gmail.com' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Site_Controller.php(1242): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:12:19 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Site_Controller.php on line 1251.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:12:35 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Site_Controller.php on line 1251.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:15:20 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Site_Controller.php on line 1251.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 11:56:29 --> Undefined property: App\Controllers\Landingpage_Controller::$db
+in APPPATH/Controllers/Landingpage_Controller.php on line 90.
+ 1 APPPATH/Controllers/Landingpage_Controller.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 11:57:07 --> Undefined property: App\Controllers\Landingpage_Controller::$db
+in APPPATH/Controllers/Landingpage_Controller.php on line 90.
+ 1 APPPATH/Controllers/Landingpage_Controller.php(90): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:32:28 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 129.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:41:33 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 130.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:45:49 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 135.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:49:48 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 135.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:50:26 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 135.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:54:56 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 135.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:58:27 --> Class "PHPMailer\PHPMailer\PHPMailer" not found
+in APPPATH/Controllers/Landingpage_Controller.php on line 138.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Landingpage_Controller->sendEmail_logic()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:16:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH/Controllers/Admin_Controller.php on line 4117.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:17:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Admin_Controller.php on line 4117.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:20:06 --> Invalid file: "admin/lp_leads_backend.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH/Views/admin/admin_layout.php(9): view()
+ 4 SYSTEMPATH/View/View.php(228): include('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Views/admin/admin_layout.php')
+ 5 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 7 APPPATH/Controllers/Admin_Controller.php(4125): view()
+ 8 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads()
+ 9 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:50:56 --> Undefined constant "App\Controllers\response"
+in APPPATH/Controllers/Admin_Controller.php on line 4202.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads_delete()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:53:42 --> Undefined constant "App\Controllers\response"
+in APPPATH/Controllers/Admin_Controller.php on line 4202.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads_delete()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 13:54:06 --> Undefined constant "App\Controllers\response"
+in APPPATH/Controllers/Admin_Controller.php on line 4202.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lp_leads_delete()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-20 17:36:20 --> CodeIgniter\Database\BaseBuilder::whereIn(): Argument #1 ($key) must be of type ?string, array given, called in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Admin_Controller.php on line 4214
+in SYSTEMPATH/Database/BaseBuilder.php on line 824.
+ 1 APPPATH/Controllers/Admin_Controller.php(4214): CodeIgniter\Database\BaseBuilder->whereIn()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->lpleads_attime_deleteAll()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

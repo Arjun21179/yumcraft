@@ -1,0 +1,573 @@
+CRITICAL - 2024-05-10 03:45:55 --> Undefined variable $val
+in APPPATH\Views\admin\category.php on line 174.
+ 1 APPPATH\Views\admin\category.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php', 174)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(404): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 05:27:57 --> Undefined array key "re_tag"
+in APPPATH\Controllers\Admin_Controller.php on line 461.
+ 1 APPPATH\Controllers\Admin_Controller.php(461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_tag"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 461)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 05:44:26 --> Undefined array key "c_imgedit"
+in APPPATH\Controllers\Admin_Controller.php on line 538.
+ 1 APPPATH\Controllers\Admin_Controller.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_imgedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 538)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 06:10:59 --> Undefined array key "c_imgedit"
+in APPPATH\Controllers\Admin_Controller.php on line 538.
+ 1 APPPATH\Controllers\Admin_Controller.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_imgedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 538)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 06:14:02 --> Undefined array key "c_imgedit"
+in APPPATH\Controllers\Admin_Controller.php on line 538.
+ 1 APPPATH\Controllers\Admin_Controller.php(538): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_imgedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 538)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 08:54:11 --> Undefined variable $val
+in APPPATH\Views\admin\category_edit.php on line 47.
+ 1 APPPATH\Views\admin\category_edit.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php', 47)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category_edit', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category_edit')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(477): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_view('test')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 08:57:24 --> Undefined variable $single_recipe
+in APPPATH\Views\admin\category_edit.php on line 84.
+ 1 APPPATH\Views\admin\category_edit.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $single_recipe', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php', 84)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category_edit', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category_edit')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(477): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_view('test')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:18:37 --> Undefined variable $val
+in APPPATH\Views\admin\category_edit.php on line 59.
+ 1 APPPATH\Views\admin\category_edit.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php', 59)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\category_edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/category_edit', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/category_edit')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(477): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_view('bg')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:21:23 --> Undefined array key "re_tag"
+in APPPATH\Controllers\Admin_Controller.php on line 319.
+ 1 APPPATH\Controllers\Admin_Controller.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_tag"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 319)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:21:55 --> Undefined array key "re_tag"
+in APPPATH\Controllers\Admin_Controller.php on line 319.
+ 1 APPPATH\Controllers\Admin_Controller.php(319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_tag"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 319)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:24:38 --> Undefined array key "c_nameedit"
+in APPPATH\Controllers\Admin_Controller.php on line 492.
+ 1 APPPATH\Controllers\Admin_Controller.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_nameedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:31:41 --> Undefined array key "c_nameedit"
+in APPPATH\Controllers\Admin_Controller.php on line 492.
+ 1 APPPATH\Controllers\Admin_Controller.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_nameedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:33:31 --> Undefined array key "c_nameedit"
+in APPPATH\Controllers\Admin_Controller.php on line 492.
+ 1 APPPATH\Controllers\Admin_Controller.php(492): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_nameedit"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 492)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_category_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 10:07:44 --> Call to undefined method App\Models\Recipes_Model::category_deletedata
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(541): CodeIgniter\Model->__call('category_deletedata', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:35:27 --> Call to undefined method App\Models\Category_Model::alltags
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(566): CodeIgniter\Model->__call('alltags', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:39:02 --> Call to undefined method App\Models\Category_Model::alltag
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(566): CodeIgniter\Model->__call('alltag', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:39:03 --> Call to undefined method App\Models\Category_Model::alltag
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(566): CodeIgniter\Model->__call('alltag', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:39:08 --> Call to undefined method App\Models\Category_Model::alltag
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Admin_Controller.php(566): CodeIgniter\Model->__call('alltag', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:39:44 --> Undefined variable $category
+in APPPATH\Views\admin\tag.php on line 205.
+ 1 APPPATH\Views\admin\tag.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\tag.php', 205)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\tag.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/tag', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/tag')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(569): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->tagpage()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 11:55:11 --> Undefined variable $result
+in APPPATH\Controllers\Admin_Controller.php on line 227.
+ 1 APPPATH\Controllers\Admin_Controller.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 227)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:15:30 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(84): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(543): App\Models\Category_Model->category_deletedata('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:15:37 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(84): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(543): App\Models\Category_Model->category_deletedata('4', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-10 12:17:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Category_Model.php(84): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(543): App\Models\Category_Model->category_deletedata('5', Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-10 12:17:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 2 APPPATH\Models\Category_Model.php(84): CodeIgniter\Database\BaseBuilder->delete()
+ 3 APPPATH\Controllers\Admin_Controller.php(543): App\Models\Category_Model->category_deletedata('5', [])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:27:12 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(81): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(541): App\Models\Category_Model->category_deletedata('6')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:27:48 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(87): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(541): App\Models\Category_Model->category_deletedata('9')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-10 12:41:04 --> mysqli_sql_exception: Unknown column 'recipe_id' in 'order clause' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from r...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from r...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from r...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(43): CodeIgniter\Database\BaseConnection->query('select * from r...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(168): App\Models\Recipes_Model->allrecipes()
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-10 12:41:04 --> Unknown column 'recipe_id' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Recipes_Model.php(43): CodeIgniter\Database\BaseConnection->query('select * from recipes where active=1 order by recipe_id desc')
+ 2 APPPATH\Controllers\Admin_Controller.php(168): App\Models\Recipes_Model->allrecipes()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:46:25 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(87): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(542): App\Models\Category_Model->category_deletedata('6')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 12:49:00 --> Array to string conversion
+in SYSTEMPATH\Database\Query.php on line 327.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\system\\Database\\Query.php', 327)
+ 2 SYSTEMPATH\Database\Query.php(327): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `recipes`
+WHERE `re_id` = :re_id:', [...], false)
+ 7 APPPATH\Models\Category_Model.php(87): CodeIgniter\Database\BaseBuilder->delete()
+ 8 APPPATH\Controllers\Admin_Controller.php(542): App\Models\Category_Model->category_deletedata('10')
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->category_delete()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 13:23:02 --> Undefined array key "re_title"
+in APPPATH\Controllers\Admin_Controller.php on line 232.
+ 1 APPPATH\Controllers\Admin_Controller.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 232)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-10 13:32:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12) VALUES (:12:)' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(256): CodeIgniter\Database\BaseBuilder->insert('12')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-10 13:32:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '12) VALUES (:12:)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `recipe_category` (12) VALUES (:12:)', [...], false)
+ 2 APPPATH\Controllers\Admin_Controller.php(256): CodeIgniter\Database\BaseBuilder->insert('12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 13:35:39 --> Undefined array key "re_category"
+in APPPATH\Views\admin\admin_home.php on line 207.
+ 1 APPPATH\Views\admin\admin_home.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_category"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 207)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(171): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 19:20:44 --> Undefined variable $result
+in APPPATH\Controllers\Admin_Controller.php on line 273.
+ 1 APPPATH\Controllers\Admin_Controller.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 273)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:05:33 --> Undefined variable $allcategories_id
+in APPPATH\Views\admin\admin_home.php on line 213.
+ 1 APPPATH\Views\admin\admin_home.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allcategories_id', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 213)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(171): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:11:20 --> Undefined variable $allcategories_id
+in APPPATH\Views\admin\admin_home.php on line 224.
+ 1 APPPATH\Views\admin\admin_home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allcategories_id', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 224)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(175): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:13:35 --> Undefined variable $allcategories
+in APPPATH\Views\admin\admin_home.php on line 212.
+ 1 APPPATH\Views\admin\admin_home.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allcategories', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 212)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(182): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:14:17 --> Undefined array key "c_id"
+in APPPATH\Views\admin\admin_home.php on line 212.
+ 1 APPPATH\Views\admin\admin_home.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 212)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(184): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:16:36 --> Unclosed '{' on line 184
+in APPPATH\Views\admin\admin_home.php on line 266.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 3 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 7 APPPATH\Controllers\Admin_Controller.php(181): view('admin/admin_layout', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:16:52 --> Undefined array key "c_name"
+in APPPATH\Views\admin\admin_home.php on line 215.
+ 1 APPPATH\Views\admin\admin_home.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "c_name"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 215)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(181): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:17:02 --> Undefined array key "re_tag"
+in APPPATH\Views\admin\admin_home.php on line 228.
+ 1 APPPATH\Views\admin\admin_home.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_tag"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 228)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(181): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:17:55 --> Undefined array key "re_titleurl"
+in APPPATH\Views\admin\admin_home.php on line 236.
+ 1 APPPATH\Views\admin\admin_home.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_titleurl"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 236)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(181): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 16:59:40 --> Undefined array key "re_tag"
+in APPPATH\Controllers\Admin_Controller.php on line 259.
+ 1 APPPATH\Controllers\Admin_Controller.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_tag"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 259)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 17:00:03 --> Undefined array key "category_id"
+in APPPATH\Views\admin\admin_home.php on line 238.
+ 1 APPPATH\Views\admin\admin_home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(189): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 17:02:16 --> Undefined variable $tag_val
+in APPPATH\Views\admin\admin_home.php on line 238.
+ 1 APPPATH\Views\admin\admin_home.php(238): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tag_val', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php', 238)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_home', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/admin_home')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(189): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 17:18:40 --> Undefined property: stdClass::$re_tag
+in APPPATH\Views\admin\editrecipes.php on line 76.
+ 1 APPPATH\Views\admin\editrecipes.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$re_tag', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\editrecipes.php', 76)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\editrecipes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editrecipes', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/editrecipes')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(339): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view('pqr')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-10 17:36:33 --> mysqli_sql_exception: Unknown column 'recipe_id' in 'where clause' in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from t...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipe_Tag_Model.php(36): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(337): App\Models\Recipe_Tag_Model->relational_tag_id('38')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view('pqr')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-10 17:36:33 --> Unknown column 'recipe_id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Recipe_Tag_Model.php(36): CodeIgniter\Database\BaseConnection->query('select * from tag where active=1 and recipe_id="38"')
+ 2 APPPATH\Controllers\Admin_Controller.php(337): App\Models\Recipe_Tag_Model->relational_tag_id('38')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view('pqr')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 17:37:28 --> Undefined array key "tag_id"
+in APPPATH\Views\admin\editrecipes.php on line 77.
+ 1 APPPATH\Views\admin\editrecipes.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tag_id"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\editrecipes.php', 77)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\editrecipes.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/editrecipes', [], true)
+ 5 APPPATH\Views\admin\admin_layout.php(9): view('admin/editrecipes')
+ 6 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Views\\admin\\admin_layout.php')
+ 7 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('admin/admin_layout', [], true)
+ 9 APPPATH\Controllers\Admin_Controller.php(341): view('admin/admin_layout', [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view('pqr')
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

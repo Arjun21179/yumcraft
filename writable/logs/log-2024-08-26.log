@@ -1,0 +1,243 @@
+CRITICAL - 2024-08-26 06:11:46 --> syntax error, unexpected variable "$routes"
+in APPPATH/Config/Routes.php on line 117.
+ 1 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:29:50 --> Array callback must have exactly two elements
+in APPPATH/Controllers/Admin_Controller.php on line 1232.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:30:43 --> Undefined array key "allergy_free_category_url"
+in APPPATH/Controllers/Admin_Controller.php on line 1243.
+ 1 APPPATH/Controllers/Admin_Controller.php(1243): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:31:57 --> Undefined array key "allergy_free_category_img"
+in APPPATH/Controllers/Admin_Controller.php on line 1234.
+ 1 APPPATH/Controllers/Admin_Controller.php(1234): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:32:17 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:32:40 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:32:43 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:32:56 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:33:20 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:33:23 --> Undefined variable $imagename
+in APPPATH/Controllers/Admin_Controller.php on line 1241.
+ 1 APPPATH/Controllers/Admin_Controller.php(1241): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 06:33:34 --> Undefined array key "allergy_free_category_set_on_menu"
+in APPPATH/Controllers/Admin_Controller.php on line 1242.
+ 1 APPPATH/Controllers/Admin_Controller.php(1242): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_allergy_freecategory()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 08:27:39 --> Undefined array key "c_name"
+in APPPATH/Controllers/Admin_Controller.php on line 1066.
+ 1 APPPATH/Controllers/Admin_Controller.php(1066): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 08:29:00 --> Undefined array key "c_name"
+in APPPATH/Controllers/Admin_Controller.php on line 1066.
+ 1 APPPATH/Controllers/Admin_Controller.php(1066): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_category()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:12:48 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:12:50 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:14:03 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:14:04 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:14:04 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:14:05 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:14:06 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:15:05 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 14:15:05 --> Call to undefined method App\Models\Category_Model::get_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Site_Controller.php(150): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:07:55 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:10:26 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:10:28 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:10:28 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:10:28 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:12:12 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:12:44 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:12:46 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 09:12:46 --> Call to undefined method App\Models\Category_Model::get_Allergen_category_data_site
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/Admin_Controller.php(2470): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->homepage_sections()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 10:21:32 --> Undefined array key "category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 482.
+ 1 APPPATH/Controllers/Admin_Controller.php(482): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 10:31:40 --> Undefined array key "category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 482.
+ 1 APPPATH/Controllers/Admin_Controller.php(482): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 10:32:27 --> Undefined array key "category_data"
+in APPPATH/Controllers/Admin_Controller.php on line 482.
+ 1 APPPATH/Controllers/Admin_Controller.php(482): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-26 10:35:03 --> Undefined variable $final_category_data
+in APPPATH/Controllers/Admin_Controller.php on line 518.
+ 1 APPPATH/Controllers/Admin_Controller.php(518): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

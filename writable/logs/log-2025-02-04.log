@@ -1,0 +1,96 @@
+ERROR - 2025-02-04 10:29:18 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=5964 in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'yumcraft', 3306, '', 0)
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'yumcraft', 3306, '', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2025-02-04 10:29:18 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=5964 in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'yumcraft', 3306, '', 0)
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'yumcraft', 3306, '', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-04 10:29:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_name,c_url from category where active=1 and flag=1 and set_on_menu=1 order by c_id desc')
+ 3 APPPATH\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-04 10:29:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_name,c_url from category where active=1 and flag=1 and set_on_menu=1 order by c_id desc')
+ 3 APPPATH\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

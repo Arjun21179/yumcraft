@@ -1,0 +1,214 @@
+CRITICAL - 2024-10-11 01:06:19 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 06:00:47 --> Undefined variable $pager_recipe
+in APPPATH/Views/admin/gallery.php on line 165.
+ 1 APPPATH/Views/admin/gallery.php(165): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/gallery.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/admin/admin_layout.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/admin_layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin_Controller.php(5744): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 13:31:50 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 15:49:37 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 16:17:56 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 16:43:48 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:14:35 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5831.
+ 1 APPPATH/Controllers/Admin_Controller.php(5831): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:14:37 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5831.
+ 1 APPPATH/Controllers/Admin_Controller.php(5831): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:14:43 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5831.
+ 1 APPPATH/Controllers/Admin_Controller.php(5831): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:16:37 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:19:09 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:19:19 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:21:56 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:22:47 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:22:52 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5833.
+ 1 APPPATH/Controllers/Admin_Controller.php(5833): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->website_gallery_edit()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 11:25:20 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH/Controllers/Admin_Controller.php on line 5841.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 17:04:40 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 941.
+ 1 APPPATH/Controllers/Site_Controller.php(941): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(463): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:17:37 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5850.
+ 1 APPPATH/Controllers/Admin_Controller.php(5850): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:18:39 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5850.
+ 1 APPPATH/Controllers/Admin_Controller.php(5850): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:18:46 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5850.
+ 1 APPPATH/Controllers/Admin_Controller.php(5850): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:19:40 --> Undefined array key "gallery_id"
+in APPPATH/Controllers/Admin_Controller.php on line 5850.
+ 1 APPPATH/Controllers/Admin_Controller.php(5850): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:23:53 --> Undefined array key "gallery_image"
+in APPPATH/Controllers/Admin_Controller.php on line 5855.
+ 1 APPPATH/Controllers/Admin_Controller.php(5855): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:24:21 --> Undefined array key "gallery_image"
+in APPPATH/Controllers/Admin_Controller.php on line 5855.
+ 1 APPPATH/Controllers/Admin_Controller.php(5855): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 12:25:28 --> Undefined array key "gallery_image"
+in APPPATH/Controllers/Admin_Controller.php on line 5857.
+ 1 APPPATH/Controllers/Admin_Controller.php(5857): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->edit_logic_gallery_website()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 13:09:01 --> Undefined variable $all_recipes_img_desc
+in APPPATH/Views/admin/gallery_blog_img.php on line 55.
+ 1 APPPATH/Views/admin/gallery_blog_img.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/gallery_blog_img.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/admin/admin_layout.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/admin_layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin_Controller.php(6005): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_blog_img()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-11 13:11:26 --> Undefined variable $all_recipes_img_desc
+in APPPATH/Views/admin/gallery_blog_img.php on line 55.
+ 1 APPPATH/Views/admin/gallery_blog_img.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/gallery_blog_img.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/admin/admin_layout.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/home/u613340721/domains/gruballergy.com/public_html/app/Views/admin/admin_layout.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Admin_Controller.php(6005): view()
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_blog_img()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

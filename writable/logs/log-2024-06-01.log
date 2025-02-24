@@ -1,0 +1,247 @@
+CRITICAL - 2024-06-01 08:31:37 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Admin_Controller.php on line 1918.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 15:01:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1906): App\Models\Recipes_Model->recipes_insert(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-01 15:01:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `recipes` (0) VALUES (:0:)', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin_Controller.php(1906): App\Models\Recipes_Model->recipes_insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 15:03:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1906): App\Models\Recipes_Model->recipes_insert(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-01 15:03:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `recipes` (0) VALUES (:0:)', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin_Controller.php(1906): App\Models\Recipes_Model->recipes_insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 15:19:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1 in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(1912): App\Models\Recipes_Model->recipes_insert(Array)
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-01 15:19:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (:0:)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `recipes` (0) VALUES (:0:)', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(26): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin_Controller.php(1912): App\Models\Recipes_Model->recipes_insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 15:20:02 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin_Controller.php on line 1912.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 09:52:10 --> Could not move file "phpA8EF.tmp" to "uploads/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpA8EF.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\Admin_Controller.php(1874): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'C:\\xampp\\tmp\\phpA8EF.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 15:23:05 --> Cannot use [] for reading
+in APPPATH\Controllers\Admin_Controller.php on line 1912.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 10:56:27 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1876): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 10:59:18 --> fopen(C:\xampp\htdocs\ci4\gruballergy\writable\uploads/1717239558_21394842d9433d24ac86.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 1880.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717239558_21394842d9433d24ac86.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1880)
+ 2 APPPATH\Controllers\Admin_Controller.php(1880): fopen('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717239558_21394842d9433d24ac86.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:00:29 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1876): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:01:04 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1876): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:47:01 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1876): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/', '1717242421_18e2d8978aac7f1e26d2.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:47:41 --> fopen(C:\xampp\htdocs\ci4\gruballergy\writable\uploads1717242461_e64d1ee2dff2cf11a051.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 1880.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads1717242461_e64d1ee2dff2cf11a051.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1880)
+ 2 APPPATH\Controllers\Admin_Controller.php(1880): fopen('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads1717242461_e64d1ee2dff2cf11a051.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:52:49 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1877): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/', '1717242769_853f1804735a1ff0f315.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:54:47 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1877): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/', '1717242887_1e1e1591cd30692dd6ab.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 11:56:32 --> fopen(C:\xampp\htdocs\ci4\gruballergy\writable\uploads/1717242992_c6a428904894bec92a65.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 1881.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717242992_c6a428904894bec92a65.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1881)
+ 2 APPPATH\Controllers\Admin_Controller.php(1881): fopen('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717242992_c6a428904894bec92a65.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 12:00:45 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1877): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/', '1717243245_d35b3ad5fe845e07f871.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 12:06:48 --> fopen(C:\xampp\htdocs\ci4\gruballergy\writable\uploads1717243608_5173a5e29aed583617f5.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 1880.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads1717243608_5173a5e29aed583617f5.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1880)
+ 2 APPPATH\Controllers\Admin_Controller.php(1880): fopen('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads1717243608_5173a5e29aed583617f5.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 12:08:18 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\Admin_Controller.php(1877): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/', '1717243698_d532a57443c0e2689883.csv')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 12:09:40 --> fopen(C:\xampp\htdocs\ci4\gruballergy\writable\uploads/1717243780_c6edf929e2f5d11e2c09.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 1881.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717243780_c6edf929e2f5d11e2c09.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1881)
+ 2 APPPATH\Controllers\Admin_Controller.php(1881): fopen('C:\\xampp\\htdocs\\ci4\\gruballergy\\writable\\uploads/1717243780_c6edf929e2f5d11e2c09.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 12:27:31 --> Could not move file "phpE29F.tmp" to "uploads/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpE29F.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\Admin_Controller.php(1875): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'C:\\xampp\\tmp\\phpE29F.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 18:02:47 --> Call to a member function getRandomName() on string
+in APPPATH\Controllers\Admin_Controller.php on line 1899.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 18:14:04 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Admin_Controller.php on line 1920.
+ 1 APPPATH\Controllers\Admin_Controller.php(1920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1920)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 18:19:08 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Admin_Controller.php on line 1920.
+ 1 APPPATH\Controllers\Admin_Controller.php(1920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1920)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 18:24:20 --> fgetcsv(): supplied resource is not a valid stream resource
+in APPPATH\Controllers\Admin_Controller.php on line 1920.
+ 1 APPPATH\Controllers\Admin_Controller.php(1920): fgetcsv(NULL)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 18:25:17 --> fgetcsv(): supplied resource is not a valid stream resource
+in APPPATH\Controllers\Admin_Controller.php on line 1917.
+ 1 APPPATH\Controllers\Admin_Controller.php(1917): fgetcsv(NULL)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-01 13:02:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Admin_Controller.php on line 1872.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_csv()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,65 @@
+CRITICAL - 2024-07-20 05:22:53 --> Undefined array key "search_item"
+in APPPATH/Controllers/Site_Controller.php on line 235.
+ 1 APPPATH/Controllers/Site_Controller.php(235): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-20 05:35:41 --> mysqli_sql_exception: Unknown column 'publish_date' in 'field list' in /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Models/Admin_Model.php(105): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Controllers/Site_Controller.php(237): App\Models\Admin_Model->get_search_data_site()
+#6 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+#7 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-07-20 05:35:41 --> Unknown column 'publish_date' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Models/Admin_Model.php(105): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/Site_Controller.php(237): App\Models\Admin_Model->get_search_data_site()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-20 05:55:04 --> Undefined array key "search-item"
+in APPPATH/Controllers/Site_Controller.php on line 251.
+ 1 APPPATH/Controllers/Site_Controller.php(251): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-20 05:56:45 --> Undefined array key "search-item"
+in APPPATH/Controllers/Site_Controller.php on line 251.
+ 1 APPPATH/Controllers/Site_Controller.php(251): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-20 05:57:35 --> Undefined array key "search-item"
+in APPPATH/Controllers/Site_Controller.php on line 251.
+ 1 APPPATH/Controllers/Site_Controller.php(251): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-20 05:57:48 --> Undefined array key "search-item"
+in APPPATH/Controllers/Site_Controller.php on line 251.
+ 1 APPPATH/Controllers/Site_Controller.php(251): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_search_logic()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-20 18:30:34 --> Undefined variable $roues
+in APPPATH/Config/Routes.php on line 335.
+ 1 APPPATH/Config/Routes.php(335): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Router/RouteCollection.php(344): require('/home/u582998483/domains/hostdemo.co.in/public_html/gruballergy/app/Config/Routes.php')
+ 3 SYSTEMPATH/CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

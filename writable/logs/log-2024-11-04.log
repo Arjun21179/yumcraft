@@ -1,0 +1,42 @@
+CRITICAL - 2024-11-04 00:17:57 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1517.
+ 1 APPPATH/Controllers/Site_Controller.php(1517): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1490): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-11-04 16:17:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'u613340721_gruballergyniv'@'localhost' (using password: YES) in C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'u613340721_grub...', '?kCpd5~3J', 'u613340721_grub...', 3306, '', 0)
+#1 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#4 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#7 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\app\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_n...')
+#3 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\app\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#6 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\live_projects\gruballergy_project\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-11-04 16:17:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Category_Model.php(156): CodeIgniter\Database\BaseConnection->query('select c_id,c_name,c_url from category where active=1 and flag=1 and set_on_menu=1 order by c_id desc')
+ 3 APPPATH\Controllers\Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

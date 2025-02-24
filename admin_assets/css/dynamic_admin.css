@@ -1,0 +1,9 @@
+.main_card_effect {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 103rem;
+}
+
+.main_card_effect .card {
+    height: 35rem;
+}

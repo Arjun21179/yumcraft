@@ -1,0 +1,1255 @@
+ERROR - 2024-10-05 02:24:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 02:24:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 08:43:31 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 09:15:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 11:19:02 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 925.
+ 1 APPPATH/Controllers/Site_Controller.php(925): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(459): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 12:23:13 --> Attempt to read property "c_id" on null
+in APPPATH/Controllers/Site_Controller.php on line 925.
+ 1 APPPATH/Controllers/Site_Controller.php(925): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(459): App\Controllers\Site_Controller->category_visedisplay_recipes()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:10:09 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:34:52 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 15:59:58 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:04:43 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#7 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-05 11:04:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:04:45 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#7 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-05 11:04:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:04:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#7 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-05 11:04:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:04:51 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#7 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+#6 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-10-05 11:04:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH/BaseModel.php(1203): CodeIgniter\Model->countAllResults()
+ 5 APPPATH/Models/Gallery_Model.php(47): CodeIgniter\BaseModel->paginate()
+ 6 APPPATH/Controllers/Admin_Controller.php(5684): App\Models\Gallery_Model->get_image_data()
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->gallery_view_section()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:04:56 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Tag_Model.php(34): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(1267): App\Models\Tag_Model->alltag_desending()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Tag_Model.php(34): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(1267): App\Models\Tag_Model->alltag_desending()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 11:04:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Tag_Model.php(34): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Admin_Controller.php(1267): App\Models\Tag_Model->alltag_desending()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->add_blog()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:34:57 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:34:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:05:11 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-05 11:05:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:05:13 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-05 11:05:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:05:26 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-05 11:05:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 11:05:28 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-05 11:05:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/Recipes_Model.php(59): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Admin_Controller.php(346): App\Models\Recipes_Model->allrecipes()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:32 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:36 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:52 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:53 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:35:54 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:35:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:36:47 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:36:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:36:49 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:36:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:37:19 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:37:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:16 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:17 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:21 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:22 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:36 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:38:58 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:38:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Category_Model.php(156): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(169): App\Models\Category_Model->get_on_menu_category()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:40:16 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:40:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:41:22 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(970): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(1758): App\Models\Recipes_Model->find_recipes_url()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls_map()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Models/Recipes_Model.php(970): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(1758): App\Models\Recipes_Model->find_recipes_url()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls_map()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-10-05 16:41:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Models/Recipes_Model.php(970): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH/Controllers/Site_Controller.php(1758): App\Models\Recipes_Model->find_recipes_url()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->all_urls_map()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:42:38 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:42:38 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-05 16:42:57 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#7 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /home/u613340721/domains/gruballergy.com/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/u613340721/domains/gruballergy.com/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/u613340721/domains/gruballergy.com/public_html/app/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+#5 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#6 /home/u613340721/domains/gruballergy.com/public_html/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u613340721/domains/gruballergy.com/public_html/index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-10-05 16:42:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Site_Controller.php(454): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->recipe_or_category()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:16:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:16:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:16:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:16:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:16:10 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:17:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:17:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:17:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:17:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 17:17:22 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 18:26:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 18:26:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 18:26:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 18:26:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 18:26:08 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-05 20:47:00 --> Trying to access array offset on value of type null
+in APPPATH/Controllers/Site_Controller.php on line 1498.
+ 1 APPPATH/Controllers/Site_Controller.php(1498): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Site_Controller.php(1471): App\Controllers\Site_Controller->blog_details()
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->blog_mapurl()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

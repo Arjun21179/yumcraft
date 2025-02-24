@@ -1,0 +1,306 @@
+CRITICAL - 2025-02-23 14:24:34 --> Undefined array key "tag_data"
+in APPPATH\Controllers\Admin_Controller.php on line 510.
+ 1 APPPATH\Controllers\Admin_Controller.php(510): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tag_data"', 'C:\\xampp\\htdocs\\clg_project\\yumcraft\\app\\Controllers\\Admin_Controller.php', 510)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:10:05 --> mysqli_sql_exception: Table 'yumcraft.tag' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from t...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from t...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from t...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Tag_Model.php(22): CodeIgniter\Database\BaseConnection->query('select * from t...')
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(321): App\Models\Tag_Model->alltag()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-23 15:10:05 --> Table 'yumcraft.tag' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Tag_Model.php(22): CodeIgniter\Database\BaseConnection->query('select * from tag where active=1')
+ 2 APPPATH\Controllers\Admin_Controller.php(321): App\Models\Tag_Model->alltag()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 20:43:56 --> mysqli_sql_exception: Table 'yumcraft.faq' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('select * from f...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('select * from f...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('select * from f...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Faq_Model.php(28): CodeIgniter\Database\BaseConnection->query('select * from f...')
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(338): App\Models\Faq_Model->faq_desending()
+#5 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-23 20:43:56 --> Table 'yumcraft.faq' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Faq_Model.php(28): CodeIgniter\Database\BaseConnection->query('select * from faq where active=1 order by faq_id desc')
+ 2 APPPATH\Controllers\Site_Controller.php(338): App\Models\Faq_Model->faq_desending()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 20:46:04 --> mysqli_sql_exception: Table 'yumcraft.seo' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 20:46:04 --> Table 'yumcraft.seo' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `seo`
+WHERE `active` = :active:', [...], false)
+ 2 APPPATH\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 20:46:05 --> mysqli_sql_exception: Table 'yumcraft.seo' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 20:46:06 --> Table 'yumcraft.seo' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `seo`
+WHERE `active` = :active:', [...], false)
+ 2 APPPATH\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 20:46:06 --> mysqli_sql_exception: Table 'yumcraft.seo' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 20:46:06 --> Table 'yumcraft.seo' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `seo`
+WHERE `active` = :active:', [...], false)
+ 2 APPPATH\Models\Seo_Model.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Site_Controller.php(349): App\Models\Seo_Model->get_seo_data_for_site()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Site_Controller->site_home()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Site_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:46:38 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(529): App\Models\Recipes_Model->editrecipes('3')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:46:38 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(529): App\Models\Recipes_Model->editrecipes('3')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:46:46 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(529): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:46:46 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(529): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:48:01 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:48:01 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:48:10 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:48:10 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:49:11 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:49:11 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(526): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-23 15:51:48 --> Class "App\Models\Faq_Model" not found
+in APPPATH\Controllers\Admin_Controller.php on line 113.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Admin_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:54:32 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(511): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:54:32 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(511): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-02-23 15:57:12 --> mysqli_sql_exception: Table 'yumcraft.author' doesn't exist in C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\clg_project\yumcraft\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `recipes...', 0)
+#1 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `recipes...')
+#2 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `recipes...')
+#3 C:\xampp\htdocs\clg_project\yumcraft\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes...', Array, false)
+#4 C:\xampp\htdocs\clg_project\yumcraft\app\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\clg_project\yumcraft\app\Controllers\Admin_Controller.php(506): App\Models\Recipes_Model->editrecipes('4')
+#6 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+#7 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\clg_project\yumcraft\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\clg_project\yumcraft\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-02-23 15:57:12 --> Table 'yumcraft.author' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `recipes`.*, `author`.`author_id`, `author`.`author_name`
+FROM `recipes`
+LEFT JOIN `author` ON `author`.`author_id` = `recipes`.`author_table_id`
+WHERE `recipes`.`re_id` = :recipes.re_id:', [...], false)
+ 2 APPPATH\Models\Recipes_Model.php(115): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_Controller.php(506): App\Models\Recipes_Model->editrecipes('4')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_view()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-23 21:29:30 --> Class "App\Models\Subscriber_Model" not found
+in APPPATH\Controllers\Site_Controller.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Site_Controller->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

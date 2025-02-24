@@ -1,0 +1,28 @@
+CRITICAL - 2024-07-13 16:50:04 --> Undefined array key "tag_data"
+in APPPATH\Controllers\Admin_Controller.php on line 553.
+ 1 APPPATH\Controllers\Admin_Controller.php(553): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tag_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 553)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-13 16:51:55 --> implode(): Argument #2 ($array) must be of type ?array, string given
+in APPPATH\Controllers\Admin_Controller.php on line 553.
+ 1 APPPATH\Controllers\Admin_Controller.php(553): implode(',', '')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-13 16:56:43 --> Undefined variable $string_tag
+in APPPATH\Controllers\Admin_Controller.php on line 572.
+ 1 APPPATH\Controllers\Admin_Controller.php(572): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string_tag', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 572)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->editrecipes_logic()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-13 18:43:10 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin_Controller.php on line 231.
+ 1 APPPATH\Controllers\Admin_Controller.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 231)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->recipes()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

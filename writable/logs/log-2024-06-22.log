@@ -1,0 +1,114 @@
+CRITICAL - 2024-06-22 07:51:05 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Admin_Controller.php on line 2132.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 07:52:39 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Admin_Controller.php on line 2132.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Admin_Controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Admin_Controller')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Admin_Controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 08:07:13 --> fopen(C:\xampp\tmp\php47A.tmp): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 2028.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\tmp\\php47A.tmp): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2028)
+ 2 APPPATH\Controllers\Admin_Controller.php(2028): fopen('C:\\xampp\\tmp\\php47A.tmp', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 08:52:42 --> Could not move file "phpA982.tmp" to "uploads/". Reason: 
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 158.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpA982.tmp', 'uploads/', '')
+ 2 APPPATH\Controllers\Admin_Controller.php(2025): CodeIgniter\HTTP\Files\UploadedFile->move('uploads/', 'C:\\xampp\\tmp\\phpA982.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 10:55:21 --> fopen(format_20240622.csv): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 2028.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(format_20240622.csv): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2028)
+ 2 APPPATH\Controllers\Admin_Controller.php(2028): fopen('format_20240622.csv', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 10:55:49 --> fopen(C:\xampp\tmp\php5ED0.tmp): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 2028.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\tmp\\php5ED0.tmp): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2028)
+ 2 APPPATH\Controllers\Admin_Controller.php(2028): fopen('C:\\xampp\\tmp\\php5ED0.tmp', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 10:56:18 --> fopen(C:\xampp\tmp\phpD21D.tmp): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin_Controller.php on line 2028.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(C:\\xampp\\tmp\\phpD21D.tmp): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2028)
+ 2 APPPATH\Controllers\Admin_Controller.php(2028): fopen('C:\\xampp\\tmp\\phpD21D.tmp', 'r')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 10:58:26 --> Undefined array key "csv_recipe_file"
+in APPPATH\Controllers\Admin_Controller.php on line 2035.
+ 1 APPPATH\Controllers\Admin_Controller.php(2035): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csv_recipe_file"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2035)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 10:58:52 --> Undefined array key "csv_recipe_file"
+in APPPATH\Controllers\Admin_Controller.php on line 2033.
+ 1 APPPATH\Controllers\Admin_Controller.php(2033): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csv_recipe_file"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2033)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 18:34:29 --> Undefined array key 3
+in APPPATH\Controllers\Admin_Controller.php on line 1987.
+ 1 APPPATH\Controllers\Admin_Controller.php(1987): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1987)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 18:40:38 --> Undefined array key 3
+in APPPATH\Controllers\Admin_Controller.php on line 1986.
+ 1 APPPATH\Controllers\Admin_Controller.php(1986): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1986)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 19:21:49 --> Undefined array key 3
+in APPPATH\Controllers\Admin_Controller.php on line 1994.
+ 1 APPPATH\Controllers\Admin_Controller.php(1994): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1994)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 19:22:40 --> Undefined array key 6
+in APPPATH\Controllers\Admin_Controller.php on line 1995.
+ 1 APPPATH\Controllers\Admin_Controller.php(1995): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1995)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 19:23:20 --> Undefined array key 4
+in APPPATH\Controllers\Admin_Controller.php on line 2002.
+ 1 APPPATH\Controllers\Admin_Controller.php(2002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 2002)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-22 19:23:45 --> Undefined array key 1
+in APPPATH\Controllers\Admin_Controller.php on line 1983.
+ 1 APPPATH\Controllers\Admin_Controller.php(1983): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 1983)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->import_recipes_data()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,151 @@
+CRITICAL - 2024-07-11 13:51:02 --> Undefined array key "popular_recipe"
+in APPPATH\Controllers\Admin_Controller.php on line 420.
+ 1 APPPATH\Controllers\Admin_Controller.php(420): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "popular_recipe"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 420)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 13:52:41 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 09:07:09 --> Undefined array key "re_title_url"
+in APPPATH\Controllers\Admin_Controller.php on line 404.
+ 1 APPPATH\Controllers\Admin_Controller.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title_url"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 09:07:19 --> Undefined array key "re_title_url"
+in APPPATH\Controllers\Admin_Controller.php on line 404.
+ 1 APPPATH\Controllers\Admin_Controller.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title_url"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 09:08:07 --> Undefined array key "re_title_url"
+in APPPATH\Controllers\Admin_Controller.php on line 404.
+ 1 APPPATH\Controllers\Admin_Controller.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title_url"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:38:07 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 09:08:17 --> Undefined array key "re_title_url"
+in APPPATH\Controllers\Admin_Controller.php on line 404.
+ 1 APPPATH\Controllers\Admin_Controller.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title_url"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:38:17 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 09:10:12 --> Undefined array key "re_title_url"
+in APPPATH\Controllers\Admin_Controller.php on line 404.
+ 1 APPPATH\Controllers\Admin_Controller.php(404): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "re_title_url"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 404)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:40:12 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:43:47 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:45:02 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:46:14 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:47:35 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:51:08 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-11 14:58:31 --> Undefined array key "category_data"
+in APPPATH\Controllers\Admin_Controller.php on line 439.
+ 1 APPPATH\Controllers\Admin_Controller.php(439): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_data"', 'C:\\xampp\\htdocs\\ci4\\gruballergy\\app\\Controllers\\Admin_Controller.php', 439)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->addrecipes_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-07-11 16:14:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'gruballergy', 3306, '', 0)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(110): App\Models\Admin_Model->loginuser('test20@gmail.co...')
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#8 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ci4\gruballergy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ci4\gruballergy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ci4\gruballergy\app\Models\Admin_Model.php(37): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ci4\gruballergy\app\Controllers\Admin_Controller.php(110): App\Models\Admin_Model->loginuser('test20@gmail.co...')
+#5 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+#6 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+#7 C:\xampp\htdocs\ci4\gruballergy\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\gruballergy\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-11 16:14:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `admin`
+WHERE `email` = :email:', [...], false)
+ 3 APPPATH\Models\Admin_Model.php(37): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Admin_Controller.php(110): App\Models\Admin_Model->loginuser('test20@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin_Controller->login_logic()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Controller))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

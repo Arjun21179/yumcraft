@@ -1,0 +1,62 @@
+CRITICAL - 2024-08-17 12:11:59 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:23 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:40 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:41 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:41 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:42 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:26:43 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:27:10 --> Call to undefined method App\Controllers\Site_Controller::sitemapindex()
+in APPPATH/Controllers/Site_Controller.php on line 1079.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->htmlsitemap()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:39:58 --> Undefined array key "slug"
+in APPPATH/Controllers/Site_Controller.php on line 1206.
+ 1 APPPATH/Controllers/Site_Controller.php(1206): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->xml_test()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-17 12:54:44 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH/Controllers/Site_Controller.php on line 1254.
+ 1 APPPATH/Controllers/Site_Controller.php(1254): date()
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Site_Controller->xml_test()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
